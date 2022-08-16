@@ -8,8 +8,12 @@ import Advertisement from './Components/Advertisement';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">      
       <Header></Header>
+      <div className='container2'>
+        <Navigation></Navigation>
+        <Main></Main>
+      </div>      
     </div>
   );
 }

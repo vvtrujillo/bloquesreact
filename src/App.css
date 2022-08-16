@@ -15,6 +15,57 @@
   margin: 20px
 }
 
+.nav-comp{
+  background-color: blue;
+  border: solid black 2px;
+  border-radius: 5px;
+  height: 500px;
+  width: 200px;
+  margin-left: 20px;
+  margin-block-end: 20px;
+}
+
+.container2{
+  display: inline-flex;
+}
+
+.main-comp{
+  background-color: red;
+  border: solid black 2px;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+  margin-block-end: 20px;
+  /*display: flex;*/
+  margin-left: 20px;
+}
+
+.container-main{
+  display: inline-block;
+}
+
+.container-subcontent{
+  display: flex;
+}
+
+.subcontent-comp{
+  background-color: yellow;
+  border: solid black 2px;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+}
+
+.advertisement{
+  height: 100px;
+  width: auto;
+  background-color: violet;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
